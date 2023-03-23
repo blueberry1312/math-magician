@@ -30,10 +30,23 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
-## Built With
+## 🛠 Built With <a name="built-with"></a>
 
-- React
-- CSS 
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="">React</a></li>
+    <li><a href="">CSS</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- Only setted react app.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Live Demo
 
@@ -104,6 +117,15 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- Add Subpage 'calculator' with its funcionality.
+- Add Subpage 'quote'.
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## Contributing
 
@@ -124,7 +146,7 @@ I would like to thank the Microverse team.
 
 ## 📝 License <a name="license"></a>
 
-This project is. [MIT](./MIT.md) licensed.
+This project is. [MIT](./LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
