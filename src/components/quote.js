@@ -6,32 +6,24 @@ export default function Quote() {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    let isMounted = true;
-    fetch('https://api.api-ninjas.com/v1/quotes', {
-      method: 'GET',
-      headers: {
-        'X-Api-Key': 'pcHVbve4kt/P+l6KlFNqxQ==Xw2mdj25huSLt5YI',
-      },
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Failed to fetch quote');
-        }
-        return response.json();
-      })
-      .then((data) => {
-        if (isMounted) {
+    const fetchQuote = async () => {
+      try {
+        const response = await fetch('https://api.api-ninjas.com/v1/quotes', {
+          headers: {
+            'X-Api-Key': 'pcHVbve4kt/P+l6KlFNqxQ==Xw2mdj25huSLt5YI',
+          },
+        });
+        if (response) {
+          const data = await response.json();
           setQuote(data[0].quote);
           setLoading(false);
         }
-      })
-      .catch((error) => {
-        if (isMounted) {
-          setError(error.message);
-          setLoading(false);
-        }
-      });
-    return () => { isMounted = false; };
+      } catch (error) {
+        setError(error.message);
+        setLoading(false);
+      }
+    };
+    fetchQuote();
   }, []);
 
   if (loading) {
