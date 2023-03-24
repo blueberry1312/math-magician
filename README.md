@@ -30,6 +30,8 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -48,9 +50,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Live Demo
-
-No available yet.
 
 ## Getting Started
 
@@ -68,6 +67,8 @@ Open a terminal or a git bash in the desired directory and run `https://github.c
 ### Install
 
 Use npm install in your terminal to install all dependencies (node_modules).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Available Scripts
 
@@ -106,6 +107,8 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 👥 Authors <a name="authors"></a>
 
 
@@ -133,13 +136,19 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/blueberry1312/math-magician/issues).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Show your support
 
 Please give a ⭐️ if you like this project!
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Acknowledgments
 
 I would like to thank the Microverse team.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## License
 <!-- LICENSE -->
