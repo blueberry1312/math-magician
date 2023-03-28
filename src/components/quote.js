@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './quote.css';
 
 export default function Quote() {
   const [quote, setQuote] = useState('');
@@ -27,12 +28,12 @@ export default function Quote() {
   }, []);
 
   if (loading) {
-    return <p>Loading...</p>;
+    return <p className="sectionQuote textQuote">Loading...</p>;
   }
 
   if (error) {
-    return <p>{error}</p>;
+    return <p className="sectionQuote textQuote">{error}</p>;
   }
 
-  return <p>{quote}</p>;
+  return <p className="sectionQuote textQuote">{quote}</p>;
 }
