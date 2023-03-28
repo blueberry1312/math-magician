@@ -1,0 +1,17 @@
+.sectionQuote {
+  padding: 20px;
+  margin: 10px 200px 10px 200px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.textQuote {
+  color: #2980b9;
+  border-color: #2980b9;
+}
+
+.textQuote p {
+  font-size: 1.2rem;
+}
