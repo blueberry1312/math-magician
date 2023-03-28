@@ -15,8 +15,8 @@ export default function Calculator() {
   };
 
   return (
-    <div className="container">
-      <div className="result">{state.next || state.total || '0'}</div>
+    <div className="container" title="calculator-container">
+      <div className="result" title="result">{state.next || state.total || '0'}</div>
       <button type="button" className="btn-light btn-zero" onClick={() => handleClick('0')}>0</button>
       <button type="button" className="btn-light btn-dot" onClick={() => handleClick('.')}>.</button>
       <button type="button" className="btn-coloured btn-equal" onClick={() => handleClick('=')}>=</button>
