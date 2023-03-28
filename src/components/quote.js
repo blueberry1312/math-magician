@@ -28,12 +28,12 @@ export default function Quote() {
   }, []);
 
   if (loading) {
-    return <p className="sectionQuote textQuote">Loading...</p>;
+    return <p className="sectionQuote textQuote" title="quote-component">Loading...</p>;
   }
 
   if (error) {
-    return <p className="sectionQuote textQuote">{error}</p>;
+    return <p className="sectionQuote textQuote" title="quote-component">{error}</p>;
   }
 
-  return <p className="sectionQuote textQuote">{quote}</p>;
+  return <p className="sectionQuote textQuote" title="quote-component">{quote}</p>;
 }
