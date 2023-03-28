@@ -2,7 +2,7 @@ import './Home.css';
 
 export default function Home() {
   return (
-    <div className="section home">
+    <div className="section home" title="home-component">
       <p>
         Welcome to our calculator webapp! Our app allows you to perform basic arithmetic
         operations such as addition, subtraction, multiplication, and division. Its simple

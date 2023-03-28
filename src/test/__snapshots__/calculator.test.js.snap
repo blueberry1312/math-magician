@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator test Calculator component is displayed on the HTML 1`] = `
+<div
+  class="container"
+  title="calculator-container"
+>
+  <div
+    class="result"
+    title="result"
+  >
+    0
+  </div>
+  <button
+    class="btn-light btn-zero"
+    type="button"
+  >
+    0
+  </button>
+  <button
+    class="btn-light btn-dot"
+    type="button"
+  >
+    .
+  </button>
+  <button
+    class="btn-coloured btn-equal"
+    type="button"
+  >
+    =
+  </button>
+  <button
+    class="btn-light btn-clear"
+    type="button"
+  >
+    AC
+  </button>
+  <button
+    class="btn-light btn-sign"
+    type="button"
+  >
+    +/-
+  </button>
+  <button
+    class="btn-light btn-percentage"
+    type="button"
+  >
+    %
+  </button>
+  <button
+    class="btn-coloured btn-divider"
+    type="button"
+  >
+    /
+  </button>
+  <button
+    class="btn-coloured btn-multiply"
+    type="button"
+  >
+    *
+  </button>
+  <button
+    class="btn-coloured btn-substract"
+    type="button"
+  >
+    -
+  </button>
+  <button
+    class="btn-coloured btn-plus"
+    type="button"
+  >
+    +
+  </button>
+  <button
+    class="btn-light btn-one"
+    type="button"
+  >
+    1
+  </button>
+  <button
+    class="btn-light btn-two"
+    type="button"
+  >
+    2
+  </button>
+  <button
+    class="btn-light btn-three"
+    type="button"
+  >
+    3
+  </button>
+  <button
+    class="btn-light btn-four"
+    type="button"
+  >
+    4
+  </button>
+  <button
+    class="btn-light btn-five"
+    type="button"
+  >
+    5
+  </button>
+  <button
+    class="btn-light btn-six"
+    type="button"
+  >
+    6
+  </button>
+  <button
+    class="btn-light btn-seven"
+    type="button"
+  >
+    7
+  </button>
+  <button
+    class="btn-light btn-eight"
+    type="button"
+  >
+    8
+  </button>
+  <button
+    class="btn-light btn-nine"
+    type="button"
+  >
+    9
+  </button>
+</div>
+`;
