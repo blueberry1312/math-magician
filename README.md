@@ -28,7 +28,7 @@
 
 "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 - Make simple calculations.
-- Read a random math-related quote.
+- Read a random quote.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -46,7 +46,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Only setted react app.
+- Three pages using react route (home, calculator, quote).
+- Calculator page with simple calculations.
+- Quote page with random quote.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,12 +120,17 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - Twitter: [@nestorsitooo](https://twitter.com/nestorsitooo)
 - LinkedIn: [LinkedIn] (https://www.linkedin.com/in/nes-oro-658570225/)
 
+👤 **Nicolas Olaya**
+
+- GitHub: [@NicolasAndrehh](https://github.com/NicolasAndrehh)
+- Twitter: [@nicolasolaya22](https://twitter.com/nicolasolaya22)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nicolas-andres-olaya-gamba-3b032b248/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add Subpage 'calculator' with its funcionality.
-- Add Subpage 'quote'.
+- Add more operators to the calculator (sqrt, pow).
 
 
 
