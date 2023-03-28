@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home test Home component is displayed on the HTML 1`] = `
+<div
+  class="section home"
+  title="home-component"
+>
+  <p>
+    Welcome to our calculator webapp! Our app allows you to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. Its simple and easy to use, perfect for anyone who needs a quick and reliable calculator tool. Try it out now and see how it can make your calculations a breeze!
+  </p>
+</div>
+`;
